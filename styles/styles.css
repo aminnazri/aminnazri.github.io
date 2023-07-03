@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #eeee00;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #FFFFFF;
-  --color-secondary: #c9d400;
+  --color-secondary: #b7c101;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -592,11 +592,19 @@ section {
   display: flex;
   margin-top: 2rem;
 }
+.contact-content-con .left-contact .contact-icon a img{
+  fill: red;
+  filter: invert(1) sepia(1) saturate(1) hue-rotate(175deg);
+}
+.icon{
+
+  fill: red;
+}
 .contact-content-con .left-contact .contact-icon a {
   display: flex;
   align-items: center;
   color: var(--color-white);
-  background-color: var(--color-grey-5);
+  background-color: var(--color-grey-3);
   cursor: pointer;
   justify-content: center;
   width: 50px;
