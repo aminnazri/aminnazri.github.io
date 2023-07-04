@@ -9,6 +9,7 @@
   --color-primary: #191d2b;
   --color-secondary: #eeee00;
   --color-white: #FFFFFF;
+  --color-white2:rgb(114, 114, 114)F;
   --color-black: #000;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
@@ -119,9 +120,11 @@ section {
 .controls .active-btn {
   background-color: var(--color-secondary);
   transition: all 0.4s ease-in-out;
+  color: black;
 }
 .controls .active-btn i {
-  color: var(--color-white);
+  /* color: var(--color-white); */
+  color: black;
 }
 
 .theme-btn {
@@ -138,6 +141,7 @@ section {
   align-items: center;
   box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
   transition: all 0.1s ease-in-out;
+
 }
 .theme-btn:active {
   transform: translateY(-3px);
@@ -642,7 +646,7 @@ section {
   border: none;
   background-color: var(--color-grey-5);
   width: 100%;
-  color: var(--color-white);
+  color: var(--color-white2);
   resize: none;
 }
 .contact-content-con .right-contact .i-c-2 {
@@ -675,6 +679,7 @@ section {
 }
 .main-btn .btn-text {
   padding: 0 2rem;
+  color: var(--color-white2);
 }
 .main-btn .btn-icon {
   background-color: var(--color-secondary);
@@ -683,6 +688,7 @@ section {
   justify-content: center;
   border-radius: 50%;
   padding: 1rem;
+  color: black;
 }
 .main-btn::before {
   content: "";
